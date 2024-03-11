@@ -208,7 +208,7 @@ public class EIBlocks {
         crate = new StorageBlock("crate") {{
             size = 1;
             itemCapacity = 75;
-            health = 70;
+            health = 100;
             buildCost = 0.75f;
 
             requirements(Category.effect, with(Items.copper, 50, Items.lead, 50));
